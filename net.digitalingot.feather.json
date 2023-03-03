@@ -1,0 +1,133 @@
+{
+    "+tweakers": [
+        "net.digitalingot.feather.launch.tweaker.FeatherTweaker",
+        "org.spongepowered.asm.launch.MixinTweaker --mixin mixins.feather.json --mixin.config mixins.feather.core.json"
+    ],
+    "formatVersion": 1,
+    "libraries": [
+        {
+            "MMC-absoluteUrl": "https://builds-cf.feathercdn.net/release/1677546728/feather-1.8.9.jar",
+            "name": "net.digitalingot:feather-1.8.9:1.0.0-SNAPSHOT"
+        },
+        {
+            "MMC-absoluteUrl": "https://libs.feathercdn.net/rust-extension-1.0.7.jar",
+            "name": "net.digitalingot:rust-extension:1.0.7"
+        },
+        {
+            "MMC-absoluteUrl": "https://libs.feathercdn.net/feather-server-api-proto-1.1-SNAPSHOT.jar",
+            "name": "net.digitalingot:feather-server-api-proto:1.1-SNAPSHOT"
+        },
+        {
+            "MMC-absoluteUrl": "https://libs.feathercdn.net/fcef-0.0.5.jar",
+            "name": "net.digitalingot:fcef:0.0.5"
+        },
+        {
+            "MMC-absoluteUrl": "https://libs.feathercdn.net/fwebp-0.0.1.jar",
+            "name": "net.digitalingot:fwebp:0.0.1"
+        },
+        {
+            "MMC-absoluteUrl": "https://libs.feathercdn.net/messaging-0.0.2-20230224.005916-1.jar",
+            "name": "net.digitalingot.feather-server-api:messaging:0.0.2"
+        },
+        {
+            "MMC-absoluteUrl": "https://libs.feathercdn.net/api-0.0.2-20230224.002549-1.jar",
+            "name": "net.digitalingot.feather-server-api:api:0.0.2"
+        },
+        {
+            "name": "de.javagl:obj:0.3.0",
+            "url": "https://repo1.maven.org/maven2/"
+        },
+        {
+            "MMC-absoluteUrl": "https://libs.feathercdn.net/discord-game-sdk4j-0.5.4.jar",
+            "name": "de.jcm:discord-game-sdk4j:0.5.4"
+        },
+        {
+            "MMC-absoluteUrl": "https://libs.feathercdn.net/libjitsi-1.0-CUSTOM.jar",
+            "name": "org.jitsi:libjitsi:1.0-CUSTOM"
+        },
+        {
+            "MMC-absoluteUrl": "https://libs.feathercdn.net/jitsi-utils-1.0-45-gc3afb76.jar",
+            "name": "org.jitsi:jitsi-utils:1.0-45-gc3afb76"
+        },
+        {
+            "name": "org.capnproto:runtime:0.1.13",
+            "url": "https://repo1.maven.org/maven2/"
+        },
+        {
+            "MMC-absoluteUrl": "https://libs.feathercdn.net/guice-vendored-5.1.0.jar",
+            "name": "com.google.inject:guice:5.1.0"
+        },
+        {
+            "MMC-absoluteUrl": "https://libs.feathercdn.net/mixin-0.8.5.jar",
+            "name": "net.digitalingot:mixin:0.8.5"
+        },
+        {
+            "name": "javassist:javassist:3.12.1.GA",
+            "url": "https://repo1.maven.org/maven2/"
+        },
+        {
+            "name": "javax.vecmath:vecmath:1.5.2",
+            "url": "https://repo1.maven.org/maven2/"
+        },
+        {
+            "name": "net.sf.trove4j:trove4j:3.0.3",
+            "url": "https://repo1.maven.org/maven2/"
+        },
+        {
+            "name": "org.cache2k:cache2k-api:2.4.1.Final",
+            "url": "https://repo1.maven.org/maven2/"
+        },
+        {
+            "name": "org.cache2k:cache2k-core:2.4.1.Final",
+            "url": "https://repo1.maven.org/maven2/"
+        },
+        {
+            "name": "de.jcm:discord-game-sdk4j:0.5.4",
+            "extract": {
+                "exclude": [ "META-INF/" ]
+            },
+            "natives": {
+                "windows": "natives-windows"
+            },
+            "MMC-hint": "local",
+            "MMC-filename": "discord-game-sdk4j-0.5.4-natives-windows.jar"
+        },
+        {
+            "name": "net.digitalingot:fcef:0.0.5",
+            "extract": {
+                "exclude": [ "META-INF/" ]
+            },
+            "natives": {
+                "windows": "natives-windows"
+            },
+            "MMC-hint": "local",
+            "MMC-filename": "fcef-0.0.5-natives-windows.jar"
+        },
+        {
+            "name": "net.digitalingot:fwebp:0.0.1",
+            "extract": {
+                "exclude": [ "META-INF/" ]
+            },
+            "natives": {
+                "windows": "natives-windows"
+            },
+            "MMC-hint": "local",
+            "MMC-filename": "fwebp-0.0.1-natives-windows.jar"
+        },
+        {
+            "name": "org.jitsi:jnopus:1.0",
+            "extract": {
+                "exclude": [ "META-INF/" ]
+            },
+            "natives": {
+                "windows": "natives-windows"
+            },
+            "MMC-hint": "local",
+            "MMC-filename": "jnopus-1.0-natives-windows.jar"
+        }
+    ],
+    "mainClass": "net.minecraft.launchwrapper.Launch",
+    "name": "feather",
+    "uid": "net.digitalingot.feather",
+    "version": "1"
+}
