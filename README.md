@@ -17,4 +17,5 @@
     - Download <https://libs.feathercdn.net/fwebp-0.0.1-natives-windows.jar> and don't rename it.
     - Download <https://libs.feathercdn.net/jnopus-windows.jar> and rename it to `jnopus-1.0-natives-windows.jar`.
 9. Place all of those files in the libraries folder you had opened.
-10. Click "Launch" and it will launch Feather Client.
+10. Add FeatherOpt to your mods folder: <https://libs.feathercdn.net/FeatherOpt-1.0.0-SNAPSHOT-11.jar>.
+11. Click "Launch" and it will launch Feather Client.
