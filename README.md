@@ -1,10 +1,10 @@
-# Launching Feather Client on Prism Launcher
+# Launching Feather Client on MultiMC
 
 ### Please note that this guide and the JSON file may not be up to date and this method of launching Feather Client is not officially supported!!!
 
 ## Launching
 
-1. Add a new instance on Prism Launcher and select "1.8.9", click "OK."
+1. Add a new instance on MultiMC and select "1.8.9", click "OK."
 2. On the right, click "Edit" and click "Version"
 3. Click "Install Forge" on the right.
 4. Click "Add Empty" on the right and for the name, put `feather` and for the uid, put `net.digitalingot.feather`.
