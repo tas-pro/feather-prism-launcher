@@ -15,6 +15,7 @@
     - Download <https://libs.feathercdn.net/discord_game_sdk_windows.jar> and rename it to `discord-game-sdk4j-0.5.4-natives-windows.jar`.
     - Download <https://libs.feathercdn.net/fcef-0.0.5-natives-windows-2.jar> and rename it to `fcef-0.0.5-natives-windows.jar`.
     - Download <https://libs.feathercdn.net/fwebp-0.0.1-natives-windows.jar> and don't rename it.
+    - Download <https://libs.feathercdn.net/favif-0.0.1-natives-windows.jar> and don't rename it.
     - Download <https://libs.feathercdn.net/jnopus-windows.jar> and rename it to `jnopus-1.0-natives-windows.jar`.
 9. Place all of those files in the libraries folder you had opened.
 10. Add FeatherOpt to your mods folder (create your mods folder if it does not exist): <https://libs.feathercdn.net/FeatherOpt-1.0.0-SNAPSHOT-11.jar>.

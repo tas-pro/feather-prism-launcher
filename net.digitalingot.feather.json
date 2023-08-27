@@ -6,7 +6,7 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "MMC-absoluteUrl": "https://builds-cf.feathercdn.net/release/1680030274/feather-1.8.9.jar",
+            "MMC-absoluteUrl": "https://builds-cf.feathercdn.net/release/1693116755/feather-1.8.9.jar",
             "name": "net.digitalingot:feather-1.8.9:1.0.0-SNAPSHOT"
         },
         {
@@ -24,6 +24,10 @@
         {
             "MMC-absoluteUrl": "https://libs.feathercdn.net/fwebp-0.0.1.jar",
             "name": "net.digitalingot:fwebp:0.0.1"
+        },
+        {
+            "MMC-absoluteUrl": "https://libs.feathercdn.net/favif-0.0.1.jar",
+            "name": "net.digitalingot:favif:0.0.1"
         },
         {
             "MMC-absoluteUrl": "https://libs.feathercdn.net/messaging-0.0.2-20230224.005916-1.jar",
@@ -113,6 +117,17 @@
             },
             "MMC-hint": "local",
             "MMC-filename": "fwebp-0.0.1-natives-windows.jar"
+        },
+        {
+            "name": "net.digitalingot:favif:0.0.1",
+            "extract": {
+                "exlude": [ "META-INF/" ]
+            },
+            "natives": {
+                "windows": "natives-windows"
+            },
+            "MMC-hint": "local",
+            "MMC-filename": "favif-0.0.1-natives-windows.jar"
         },
         {
             "name": "org.jitsi:jnopus:1.0",
