@@ -1,11 +1,15 @@
 # Launching Feather Client on MultiMC
 
-### Please note that this guide and the JSON file may not be up to date and this method of launching Feather Client is not officially supported!!! Do not ask Feather client staff for support if you are using this!
+> The JSON file may not be up to date.
+
+> This method of launching Feather Client is not officially supported and you may come across issues!
+
+> Do not ask Feather client staff regarding this project!
 
 ## Launching
 
 1. Add a new instance on MultiMC and select "1.8.9", click "OK."
-2. On the right, click "Edit instancee" then click "Version."
+2. On the right, click "Edit instance" then click "Version."
 3. Click "Install Forge" on the right, then click OK on the bottom.
 4. Click "Add Empty" on the right and for the name, put `feather` and for the uid, put `net.digitalingot.feather`.
 5. Right click on the version you created and click "Edit."
