@@ -6,7 +6,7 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "MMC-absoluteUrl": "https://builds-cf.feathercdn.net/release/1693116755/feather-1.8.9.jar",
+            "MMC-absoluteUrl": "https://builds-cf.feathercdn.net/release/1693265986/feather-1.8.9.jar",
             "name": "net.digitalingot:feather-1.8.9:1.0.0-SNAPSHOT"
         },
         {
